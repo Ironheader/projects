@@ -1,0 +1,243 @@
+/*
+Yellow
+#000000: Black
+#ffbb00: Orange
+#808080: Grey
+#006eff: Lightish Blue
+#1100ff: BLUE!
+*/
+/*
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Fredoka One', cursive;
+
+*/
+
+*{
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper
+{  
+    padding: 6px;
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+}
+
+header{
+    background-color: #ffe135;
+    width: 50%;
+    float: left;
+}
+
+nav{ background-color: #ffe135;
+width: 50%;
+    float:left;
+    overflow:auto;
+    padding-top: 50px;
+}
+nav ul{
+    list-style: none;
+     font-size: 25px;
+    
+    
+    
+}
+nav li{
+    display: inline-block;
+    border-right: 2px solid;
+   background-color: #ffbb00;
+    padding: 3px;
+    
+
+}
+nav li:hover{
+    background-color: white;
+    
+}
+
+main{
+
+    
+}
+
+footer{
+    background-color:grey;
+    text-align: center;
+    padding-top: 10px;
+    
+        
+}
+footer img{
+    
+    padding-left: 40px;
+    width:  15%;
+    height: 15%;
+}
+
+
+.frontbanner{
+    position: relative;
+    text-align: center;
+}
+.frontbanner img{
+    opacity: 75%;
+}
+.bannertext{
+    position: absolute;
+    
+    top:45%;
+    left:50%;
+    
+    transform: translate(-50%, -50%);
+    
+    font-size: 35px;    
+    color:#ffbb00;
+  
+}
+.bannertextunder{
+    position: absolute;
+    
+    top:60%;
+    left:50%;
+    
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  
+}
+.clear{
+    clear: both;
+}
+.left{float: left;}
+.right{float: right;}
+
+.scrunch{ 
+width: 80%;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.scrunch .rightalign p{
+
+ transform: translate(-10px, 50px);
+}
+.scrunch .rightalign button{
+
+ transform: translate(-20px, 50px);
+}
+
+
+.scrunch p{
+    transform: translate(5px, 50px);
+}.scrunch button{
+    transform: translate(50%, 50px);
+    font-size: 20px;
+    background-color: #ffbb00;
+    border: none;
+    padding: 3px 30px;
+    
+}
+.rightalign{
+    text-align: right;
+}
+.fill{
+    background-color: #ffe135;
+    
+}
+main img{
+    box-shadow: 2px 2px 4px;
+}
+button:hover{
+    background-color: #ffe135;
+}
+.squeeze{
+    width: 80%;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.quote{
+    font-style: italic;
+    padding-top: 30px;
+    background-color: beige;
+    
+}
+h3 a{
+    color: #ffbb00;
+}
+.squeeze .clear{
+    padding-bottom: 15px;
+}
+
+table, td{
+    border: 2px solid;
+    
+}
+p a{
+    color: blue;
+}
+.design li{
+    list-style: none;
+}
+.design ul{
+    list-style: none;
+}
+
+@media screen and (max-width: 900px){
+    nav{
+        width: 100%;
+        float: none;
+    }
+    .left{
+        width: 100%;
+        float: none;
+    }
+    .right{
+         width: 100%;
+        float: none;
+    }
+    header{
+         width: 100%;
+        float: none;
+    }
+    footer img{
+    
+   display: none;
+    
+}
+    .scrunch{
+        width: 100%;
+        float: none;
+        
+    }
+    .squeeze{
+        width: 100%;
+        float: none;
+    }
+    .scrunch .rightalign p{
+
+ transform: none;
+}
+.scrunch .rightalign button{
+
+ transform: none;
+}
+
+
+.scrunch p{
+    transform: none;
+}.scrunch button{
+    transform: none;
+    
+    }

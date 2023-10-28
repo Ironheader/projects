@@ -1,0 +1,145 @@
+/* Color Scheme 
+#606e8c - Denim
+#61608c - Purple
+#607d8c - Dark Turquoise
+#99a3b9 - Maroon Blue
+#767676 - Grey
+#000000 - Black
+*/
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    background-color: #61608c;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    
+    
+}
+.wrapper{
+    width: 80%;
+    background-color:#607d8c;
+}
+h1{
+font-family: 'Roboto', sans-serif;
+   font-size: 75px;
+    color: #99a3b9;
+    text-shadow: 5px 5px #000000;
+    text-decoration: underline;
+        
+
+}
+h2{
+    font-size: 35px;
+}
+
+header{
+    background-color: #607d8c;
+}
+
+nav{
+    background-color:#607d8c;
+    float: left;
+    width: 10%;
+}
+
+main{
+    background-color: #99a3b9;
+    float: left;
+    width: 87%;
+    padding-left: 15px;
+    border-radius: 25px;
+    
+    
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+#head1{
+    width: 80%;
+    float:right;
+}
+
+#head2{
+    width: 20%;
+    float:right;
+        
+}
+
+.clear{clear: both}
+.removelisteffect{
+    list-style: none;
+  
+  
+}
+.floatleft{
+    float:left;
+    padding-bottom: 10px;
+}
+.floatright{
+    float:right;
+    padding-bottom: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.backtotop{
+    opacity: 0.4;
+    color:white;
+}
+table, td{
+    border: 3px solid;
+    text-align: center;
+    background-color: #ffffff;
+}
+img{
+    max-width: 100%
+}
+
+@media screen and (max-width: 900px){
+    #head1{
+        float: none;
+        width: 100%
+    }
+    #head2{
+        float: none;
+        width: 100%
+    }
+    nav{
+        float: none;
+        width: 100%;
+    }
+    main{
+        float: none;
+        width: 100%;
+    }
+    h1{
+        font-size: 55px;
+        
+    }
+    .floatleft{
+        float:none;
+        width: 100%
+    }
+    .floatright{
+     float: none;
+        width: 100%;
+        
+    }
+}
+
+
+
+@media print{
+    
+    header, nav, footer{display: none}
+    img{display: none}
+}
